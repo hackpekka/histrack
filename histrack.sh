@@ -132,7 +132,7 @@ zero() {
 clear
 printf "\e[0m\n"
 sleep 0.1
-printf "${YELLOW} Enter Code to Unlock this Tool!"
+printf "${YELLOW} 𝙴𝚗𝚝𝚎𝚛 𝙲𝚘𝚍𝚎 𝚝𝚘 𝚄𝚗𝚕𝚘𝚌𝚔 𝚝𝚑𝚒𝚜 𝚃𝚘𝚘𝚕!"
 printf "\e[0m\n"
 printf "${RED}"
 sleep 0.1
@@ -141,7 +141,7 @@ read -p ${YELLOW}'  >>'${BLACK}${BLACKBG} zero
 if [[ $zero == iwbh2 || $zero == sudo-s ]]; then
 menu
 else
-printf "${RED}    INVALID CODE [X]"
+printf "${RED}    [𝚇]𝙸𝚗𝚟𝚊𝚕𝚒𝚍 𝙲𝚘𝚍𝚎[𝚇]"
 printf "\e[0m\n"
 sleep 1
 zerohelp
@@ -152,13 +152,13 @@ fi
 zerohelp() {
 cat <<- EOF
 
-${YELLOW}    Problem Here?
+${YELLOW}    𝙿𝚛𝚘𝚋𝚕𝚎𝚖 𝙷𝚎𝚛𝚎?
 
-${REDBG}${WHITE}If you dont know code do this:${RESETBG}
+${REDBG}${WHITE} 𝙸𝚏 𝚢𝚘𝚞 𝚍𝚘𝚗𝚝 𝚔𝚗𝚘𝚠 𝚌𝚘𝚍𝚎 𝚍𝚘 𝚝𝚑𝚒𝚜:${RESETBG}
 
-${YELLOW}1. Join our Telegram: ${RED}https://t.me/+sX0qdcVcbEE1Y2I0
+${YELLOW}𝟷. 𝙹𝚘𝚒𝚗 𝚘𝚞𝚛 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:  ${RED}https://t.me/+sX0qdcVcbEE1Y2I0
 
-${YELLOW}2. Find Code in Telegram
+${YELLOW}𝟸. 𝙵𝚒𝚗𝚍 𝙲𝚘𝚍𝚎 𝚒𝚗 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖
 EOF
 }
 useripaddr() {
